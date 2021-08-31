@@ -1,0 +1,82 @@
+.navbar {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .logo {
+    height: 70px;
+    width: 50px;
+    object-fit: contain;
+  }
+  
+  .navbarHeading {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -1px;
+  }
+  
+  .navbarHeading:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 1%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .navbarHeading:hover:after {
+    width: 23%;
+    left: 80px;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+    display: table;
+    text-align: center;
+  }
+  
+  li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+  }
+  
+  a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+  
+    display: inline-block;
+    position: relative;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+  
+  a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  /* @media screen and (max-height: 300px) {
+    ul {
+      margin-top: 40px;
+    }
+  } */
+  
