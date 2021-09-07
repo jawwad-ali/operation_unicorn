@@ -6,6 +6,7 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-transformer-remark`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-contentful`,

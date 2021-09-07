@@ -3,7 +3,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import { Container, Typography } from '@material-ui/core';
 import { useStyles } from "./StyleStrategySection"
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
+import StrategyVideoSection from './StrategyVideoSection';
 
 function StrategySection() {
     const classes = useStyles();
@@ -16,23 +16,25 @@ function StrategySection() {
                             id
                             heading
                             startegytext
+                            urduVideoUrl
+                            englishUrlVideo
                         }
                     }
                 }
             }
         `
     )
-    console.log(result)
+    const videoUrl = result.allContentfulHomepage.edges
     return (
         <>
             <Container maxWidth="lg">
                 <Grid container spacing={3} >
                     <Grid item lg={5} xs={12} className={classes.strategySection}>
                         {
-                            result.allContentfulHomepage.edges.map((edge, i) => {
+                            result.allContentfulHomepage.edges.map((edge) => {
                                 return (
                                     <>
-                                        <div key={i}>
+                                        <div key={edge.node.id}>
                                             <Typography className={classes.strategyHeading} variant="h1" component="h2">
                                                 {edge.node.heading}
                                             </Typography>
@@ -44,6 +46,9 @@ function StrategySection() {
                                 )
                             })
                         }
+                    </Grid>
+                    <Grid lg={7} xs={12} className={classes.videoSectionContainer} >
+                        <StrategyVideoSection videoUrl={videoUrl} />
                     </Grid>
                 </Grid>
             </Container>

@@ -10,18 +10,27 @@ const useStyles = makeStyles((theme) => ({
   strategyHeading: {
     fontSize: "45px",
     fontWeight: "bold",
-    letterSpacing: "1px",
-    lineHeight: "50px",
+    letterSpacing: "2px",
+    lineHeight: "60px",
   },
   startegytext: {
     color: "#6e6e6e",
-    fontSize: "18px",
+    fontSize: "17px",
     marginBottom: "1rem",
     marginTop: "2rem",
     fontFamily: "Roboto",
     fontWeight: 500,
     lineHeight: 1.6,
-    letterSpacing: "0.0075em",
+    letterSpacing: "1.2px",
+  },
+  videoSectionContainer: {
+    marginTop: "20px"
+  },
+
+
+  // StrategyVideSection.js
+  videoContainer: {
+    height: "400px"
   }
 }));
 
