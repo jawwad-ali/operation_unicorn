@@ -20,7 +20,11 @@ module.exports = {
       options: {
         fonts: [
           `limelight`,
-          `Roboto`, `Helvetica`, `Arial`, `sans-serif` // you can also specify font weights and styles
+          `Pacifico`,
+          `Helvetica`,
+          `Arial`,
+          `sans-serif `,
+          `Roboto`,    // you can also specify font weights and styles
         ],
         display: 'swap'
       }

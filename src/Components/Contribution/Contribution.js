@@ -45,7 +45,7 @@ function Contribution() {
 
                     {
                         result.contributionData.map((d) => (
-                            <Grid lg={4}>
+                            <Grid lg={4} key={d.id}>
                                 <div >
                                     <Card className={classes.card}>
                                         <CardContent className={classes.CardContent}>
@@ -58,9 +58,9 @@ function Contribution() {
                                         </CardContent>
                                         <CardActions>
                                             <div className={classes.btnDiv}>
-                                            <Button size="small" className={classes.cardBtn}>
-                                                {d.btn}
-                                            </Button>
+                                                <Button size="small" className={classes.cardBtn}>
+                                                    {d.btn}
+                                                </Button>
                                             </div>
                                         </CardActions>
                                     </Card>

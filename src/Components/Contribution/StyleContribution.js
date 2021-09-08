@@ -56,23 +56,6 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
         textAlign: "center",
         padding: "1rem !important"
-    }
-    // cardBtn: {
-    //     background: "#416ffe",
-    //     border: "none",
-    //     borderRadius: "40px",
-    //     boxShadow: "0 12px 40px #b9b8b8",
-    //     color: "#fff",
-    //     cursor: "pointer",
-    //     fontSize: "15px",
-    //     outline: "none",
-    //     padding: "1rem",
-    //     textAlign: "center",
-    //     transition: ".4s ease-in -out",
-    //     width: "80%",
-    //     marginTop: "2rem",
-    //     paddingBottom: "4rem",
-    // }
-
+    },
 }));
 export { useStyles };

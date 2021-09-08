@@ -10,8 +10,9 @@ const useStyles = makeStyles((theme) => ({
   strategyHeading: {
     fontSize: "45px",
     fontWeight: "bold",
-    letterSpacing: "2px",
     lineHeight: "60px",
+    letterSpacing: "0.5px",
+    fontFamily: "Roboto !important"
   },
   startegytext: {
     color: "#6e6e6e",

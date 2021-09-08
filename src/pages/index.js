@@ -5,7 +5,7 @@ import Layout from "../Components/Layout/Layout"
 export default function Home() {
   return <>
     <Layout>
-      <LandingPage />
+      <LandingPage /> 
     </Layout>
   </>
 }
