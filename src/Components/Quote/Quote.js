@@ -28,7 +28,7 @@ function Quote() {
     return (
         <>
             <Container maxWidth="lg">
-                <Grid container spacing={3}>
+                <Grid container spacing={3} className={classes.quoteContainer}>
                     <FormatQuoteIcon className={classes.quoteIcon} />
                     {
                         result.quoteData.map((qData) => (

@@ -8,6 +8,11 @@ const useStyles = makeStyles((theme) => ({
         marginTop: "6rem",
         paddingBottom: "1rem",
         paddingTop: "4rem",
+
+        ['@media (max-width:768px)']: {
+            width: "90%"
+        }
+
     },
     innerCardContainer: {
         width: "30%",

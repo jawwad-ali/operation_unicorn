@@ -32,7 +32,7 @@ function CardSection() {
         <>
             <Container maxWidth="lg" className={classes.cardSectionContainer} >
                 <Grid container spacing={3} >
-                    {
+                    { 
                         result.allContentfulCardSection.edges.map((edge) => {
                             return (
                                 <Grid xs={12} sm={12} md={4} lg={4} xl={4} key={edge.node.id} className={classes.innerCardContainer}>

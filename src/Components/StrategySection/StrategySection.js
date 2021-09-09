@@ -30,7 +30,7 @@ function StrategySection() {
             <Container maxWidth="lg">
                 <Grid container spacing={3} >
                     <Grid item lg={5} xs={12} className={classes.strategySection}>
-                        {
+                        { 
                             result.allContentfulHomepage.edges.map((edge) => {
                                 return (
                                     <>

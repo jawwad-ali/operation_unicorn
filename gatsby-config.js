@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-contentful`,

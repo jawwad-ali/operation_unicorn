@@ -7,7 +7,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 
-
 function Contribution() {
 
     const classes = useStyles();
@@ -59,7 +58,7 @@ function Contribution() {
                                         <CardActions>
                                             <div className={classes.btnDiv}>
                                                 <Button size="small" className={classes.cardBtn}>
-                                                    {d.btn}
+                                                    <Typography className={classes.btnText}>{d.btn}</Typography>
                                                 </Button>
                                             </div>
                                         </CardActions>

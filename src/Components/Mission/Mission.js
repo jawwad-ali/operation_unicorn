@@ -44,7 +44,7 @@ function Mission() {
                                 </Grid>
 
                                 <Grid xs={12} sm={12} md={6} lg={6} className={classes.imgDiv}>
-                                    <img className={classes.img} src={edge.node.image} />
+                                    <img className={classes.img} src={edge.node.image} alt="Mission Section" />
                                 </Grid>
                             </Grid>
                         </div>

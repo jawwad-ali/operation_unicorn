@@ -1,18 +1,20 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
   strategySection: {
-    marginTop: "40px"
+    marginTop: "40px",
   },
   strategyHeading: {
     fontSize: "45px",
     fontWeight: "bold",
     lineHeight: "60px",
     letterSpacing: "0.5px",
-    fontFamily: "Roboto !important"
+    fontFamily: "Roboto !important",
+
+    ['@media (max-width:768px)']: {
+      fontSize: "32px",
+      lineHeight: "40px"
+    }
   },
   startegytext: {
     color: "#6e6e6e",
@@ -25,14 +27,25 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: "1.2px",
   },
   videoSectionContainer: {
-    marginTop: "20px"
+    marginTop: "20px",
   },
 
-
   // StrategyVideSection.js
+
+  tabs: {
+    width: "90%",
+    margin: "0 auto",
+  },
+  tab: {
+    fontSize: "12px"
+  },
   videoContainer: {
-    height: "400px"
+    height: "400px",
+
+    ['@media (max-width:768px)']: {
+      height: "250px",
+      padding: "8px",
+    }
   }
 }));
-
 export { useStyles };
