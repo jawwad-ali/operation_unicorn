@@ -32,10 +32,10 @@ function CardSection() {
         <>
             <Container maxWidth="lg" className={classes.cardSectionContainer} >
                 <Grid container spacing={3} >
-                    { 
+                    {
                         result.allContentfulCardSection.edges.map((edge) => {
                             return (
-                                <Grid xs={12} sm={12} md={4} lg={4} xl={4} key={edge.node.id} className={classes.innerCardContainer}>
+                                <Grid item xs={12} sm={12} md={4} lg={4} xl={4} key={edge.node.id} className={classes.innerCardContainer}>
                                     <Card >
                                         <CardActionArea>
                                             <CardMedia
@@ -44,7 +44,7 @@ function CardSection() {
                                                 title="Tech Giants"
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom className={classes.name}>
+                                                <Typography gutterBottom component={"span"} className={classes.name}>
                                                     {edge.node.name}
                                                 </Typography>
                                             </CardContent>

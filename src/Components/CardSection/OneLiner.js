@@ -2,7 +2,7 @@ import React from 'react'
 import "./StyleCardSection"
 import { useStyles } from "./StyleCardSection"
 import { graphql, useStaticQuery } from 'gatsby'
-import { Container, Grid, Typography } from '@material-ui/core'
+import { Typography } from '@material-ui/core'
 
 export default function OneLiner() {
     const result = useStaticQuery(

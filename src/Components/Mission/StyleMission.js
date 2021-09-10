@@ -4,7 +4,7 @@ const useStyles = makeStyles((theme) => ({
     missionContainer: {
         marginTop: "170px",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "95%",
             padding: "10px",
             margin: "0 auto",
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "space-between",
         flexDirection: "row-reverse",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "95%",
             padding: "10px",
             margin: "0 auto",
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
         color: "black",
         fontWeight: "bold",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             fontSize: "25px",
             lineHeight: "35px"
         }
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "center",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "90%"
         }
     },
@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
         height: "300px",
         width: "300px",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "100%"
         }
     },
@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "20px",
         textAlign: "justify",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             fontSize: "16px"
         }
 

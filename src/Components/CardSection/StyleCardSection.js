@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom: "1rem",
         paddingTop: "4rem",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "90%"
         }
 

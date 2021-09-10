@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom: "1rem",
         paddingTop: "4rem",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "90%",
         }
     },
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "Roboto",
         fontWeight: "bold",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             fontSize: "25px",
         }
     },
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "space-between",
         flexDirection: "column",
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             width: "90%",
             padding: "0px"
         }
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "24px",
         fontWeight: 700,
 
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             fontSize: "24px",
         }
     },
@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
         padding: "1rem !important",
     },
     btnText: {
-        ['@media (max-width:768px)']: {
+        '@media (max-width:768px)': {
             fontSize: "15px"
         },
     },

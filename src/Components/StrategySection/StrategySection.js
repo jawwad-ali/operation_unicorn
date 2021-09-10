@@ -30,24 +30,22 @@ function StrategySection() {
             <Container maxWidth="lg">
                 <Grid container spacing={3} >
                     <Grid item lg={5} xs={12} className={classes.strategySection}>
-                        { 
-                            result.allContentfulHomepage.edges.map((edge) => {
+                        {
+                            result.allContentfulHomepage.edges.map((edge, i) => {
                                 return (
-                                    <>
-                                        <div key={edge.node.id}>
-                                            <Typography className={classes.strategyHeading} variant="h1" component="h2">
-                                                {edge.node.heading}
-                                            </Typography>
-                                            <Typography variant="body1" className={classes.startegytext} >
-                                                {edge.node.startegytext}
-                                            </Typography>
-                                        </div>
-                                    </>
+                                    <div key={i}>
+                                        <Typography className={classes.strategyHeading} variant="h1" component="h2">
+                                            {edge.node.heading}
+                                        </Typography>
+                                        <Typography variant="body1" component={"span"} className={classes.startegytext} >
+                                            {edge.node.startegytext}
+                                        </Typography>
+                                    </div>
                                 )
                             })
                         }
                     </Grid>
-                    <Grid lg={7} xs={12} className={classes.videoSectionContainer} >
+                    <Grid item lg={7} xs={12} className={classes.videoSectionContainer} >
                         <StrategyVideoSection videoUrl={videoUrl} />
                     </Grid>
                 </Grid>

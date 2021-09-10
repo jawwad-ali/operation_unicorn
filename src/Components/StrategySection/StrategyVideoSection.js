@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import { makeStyles } from "@material-ui/core/styles";
 import ReactPlayer from 'react-player';
 import { useStyles } from "./StyleStrategySection"
 

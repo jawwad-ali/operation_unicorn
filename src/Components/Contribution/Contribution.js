@@ -31,7 +31,6 @@ function Contribution() {
     )
 
     const result = data.allContentfulContribution.nodes[0]
-    console.log(result.contributionData)
     return (
         <div>
             <Container maxWidth="lg" className={classes.contributionSectionContainer}>
@@ -44,21 +43,21 @@ function Contribution() {
 
                     {
                         result.contributionData.map((d) => (
-                            <Grid lg={4} key={d.id}>
+                            <Grid item lg={4} key={d.id}>
                                 <div >
                                     <Card className={classes.card}>
                                         <CardContent className={classes.CardContent}>
-                                            <Typography className={classes.cardTitle} color="textSecondary" gutterBottom>
+                                            <Typography component={"div"} className={classes.cardTitle} color="textSecondary" gutterBottom>
                                                 {d.heading}
                                             </Typography>
-                                            <Typography className={classes.cardText} variant="body1" component="p">
+                                            <Typography component={"div"} className={classes.cardText} variant="body1">
                                                 {d.text}
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
                                             <div className={classes.btnDiv}>
                                                 <Button size="small" className={classes.cardBtn}>
-                                                    <Typography className={classes.btnText}>{d.btn}</Typography>
+                                                    <Typography component={"div"} className={classes.btnText}>{d.btn}</Typography>
                                                 </Button>
                                             </div>
                                         </CardActions>

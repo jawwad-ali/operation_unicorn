@@ -33,12 +33,12 @@ function Quote() {
                     {
                         result.quoteData.map((qData) => (
                             <div key={qData.id}>
-                                <Grid xs={12} sm={12} md={12} lg={12} xl={12}  >
-                                    <Typography variant="body1" component="p" className={classes.quote}>
+                                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}  >
+                                    <Typography variant="body1" component={"span"} className={classes.quote}>
                                         {qData.quote}
                                     </Typography>
                                     <div className={classes.quoteByDiv}>
-                                        <Typography className={classes.quoteBy}>
+                                        <Typography className={classes.quoteBy} component={"span"}>
                                             {qData.quoteBy}
                                         </Typography>
                                     </div>
