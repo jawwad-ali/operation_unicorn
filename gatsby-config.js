@@ -3,10 +3,6 @@ require("dotenv").config({
 })
 
 module.exports = {
-  siteMetadata: {
-    title: `Operation Unicorn`,
-    author: `Ali Jawwad`,
-  },
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-plugin-image`,

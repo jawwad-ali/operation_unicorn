@@ -36,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   tabs: {
-    width: "90%",
     margin: "0 auto",
     backgroundColor: "#d8d8d8",
     width: "100%",
