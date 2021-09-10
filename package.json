@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "operation-unicorn",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "operation-unicorn-clone",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -22,7 +22,9 @@
     "@material-ui/icons": "^4.11.2",
     "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.1.0",
+    "dotenv": "^10.0.0",
     "gatsby": "^3.12.1",
+    "gatsby-cli": "^3.13.0",
     "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^1.13.0",

@@ -1,3 +1,6 @@
+// const dotenv = require("dotenv");
+// dotenv.config();
+
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -11,8 +14,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: "4jpy3t7zyagt",
-        accessToken: "gl-ZHuKRCM-i2VFUJgCYszoJ7ZKIctLZhzhlt_4HeFI",
+        spaceId: process.env.SPACE_ID,
+        accessToken: process.env.ACCESS_TOKEN,
       },
     },
     {
