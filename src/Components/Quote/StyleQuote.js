@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme) => ({
         '@media (max-width:768px)': {
             marginLeft: "-10px"
         },
-
     },
     quoteByDiv: {
         width: "100%",
@@ -38,7 +37,9 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "Pacifico !important",
 
         '@media (max-width:768px)': {
-            width: "90%",
+            width: "25%",
+            marginLeft: "auto",
+            marginRight: 0,
         },
     },
     quoteBy: {

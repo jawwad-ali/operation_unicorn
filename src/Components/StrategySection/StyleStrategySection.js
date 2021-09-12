@@ -3,6 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   strategySection: {
     marginTop: "150px",
+
+    '@media (max-width:768px)': {
+      marginTop: "120px",
+      maxWidth: "90%",
+      marginLeft: "20px"
+    }
   },
   strategyHeading: {
     fontSize: "45px",

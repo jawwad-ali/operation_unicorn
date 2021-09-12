@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 
         '@media (max-width:768px)': {
             width: "90%",
-            padding: "0px"
+            margin: "0 auto",
         }
     },
     cardTitle: {
@@ -74,7 +74,8 @@ const useStyles = makeStyles((theme) => ({
     },
     btnText: {
         '@media (max-width:768px)': {
-            fontSize: "15px"
+            fontSize: "15px",
+            fontFamily: "Arial"
         },
     },
 }));
