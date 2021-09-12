@@ -38,6 +38,10 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 400,
         lineHeight: 1.5,
         letterSpacing: "0.00938em",
+
+        '@media (max-width:768px)': {
+            fontSize: "28px",
+        }
     }
 }));
 export { useStyles };

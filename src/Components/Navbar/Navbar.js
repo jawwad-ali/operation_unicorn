@@ -11,7 +11,9 @@ function Navbar() {
                     <Link className="navbar-brand" to="/">
                         <img src={logo} alt="unicorn logo" className="logo" />
                     </Link>
-                    <h1 className="navbarHeading">Operation Unicorn</h1>
+                    <div className="headingDiv">
+                        <h1 className="navbarHeading">Operation Unicorn</h1>
+                    </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>

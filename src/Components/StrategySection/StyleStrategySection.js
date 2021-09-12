@@ -32,7 +32,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "150px",
 
     '@media (max-width:768px)': {
-      marginTop: "-25px"
+      marginTop: "-25px",
+      marginTop: "50px"
     }
   },
   tabs: {
@@ -48,7 +49,6 @@ const useStyles = makeStyles((theme) => ({
 
     '@media (max-width:768px)': {
       height: "250px",
-      padding: "8px",
     }
   }
 }));

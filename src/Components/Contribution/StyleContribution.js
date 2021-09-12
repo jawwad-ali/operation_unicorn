@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: "bold",
 
         '@media (max-width:768px)': {
-            fontSize: "25px",
+            fontSize: "2.125rem",
         }
     },
 

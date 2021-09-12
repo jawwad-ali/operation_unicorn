@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
             width: "95%",
             padding: "10px",
             margin: "0 auto",
-            marginBottom: "5px"
+            marginBottom: "8px"
         },
     },
     missionContainerAlternate: {
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
             width: "95%",
             padding: "10px",
             margin: "0 auto",
-            marginBottom: "5px"
+            marginBottom: "8px"
         },
     },
     title: {
@@ -31,7 +31,8 @@ const useStyles = makeStyles((theme) => ({
 
         '@media (max-width:768px)': {
             fontSize: "25px",
-            lineHeight: "35px"
+            lineHeight: "35px",
+            marginBottom: "20px"
         }
     },
     imgDiv: {
@@ -40,7 +41,8 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
 
         '@media (max-width:768px)': {
-            width: "90%"
+            width: "100%",
+            borderBottom: "2px solid silver",
         }
     },
     img: {
@@ -57,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "justify",
 
         '@media (max-width:768px)': {
-            fontSize: "16px"
+            fontSize: "16px",
         }
 
     }

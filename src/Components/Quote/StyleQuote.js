@@ -16,12 +16,17 @@ const useStyles = makeStyles((theme) => ({
         '@media (max-width:768px)': {
             fontSize: "18px",
             textAlign: "left",
-            padding: "8px"
+            paddingLeft: "20px"
         },
     },
     quoteIcon: {
         transform: `rotate(180deg)`,
         fontSize: "48px !important",
+
+        '@media (max-width:768px)': {
+            marginLeft: "-10px"
+        },
+
     },
     quoteByDiv: {
         width: "100%",
@@ -33,12 +38,16 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "Pacifico !important",
 
         '@media (max-width:768px)': {
-            width: "90%"
+            width: "90%",
         },
     },
     quoteBy: {
         fontFamily: "Pacifico !important",
         fontSize: "23px",
+
+        '@media (max-width:768px)': {
+            paddingTop: "20px"
+        },
     }
 }));
 export { useStyles };
