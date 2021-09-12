@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "bold",
     lineHeight: "60px",
     letterSpacing: "0.5px",
-    fontFamily: "Roboto !important",
+    fontFamily: "Roboto, Helvetica ,Arial, sans-serif",
     paddingBottom: "20px",
 
     '@media (max-width:768px)': {
@@ -26,10 +26,8 @@ const useStyles = makeStyles((theme) => ({
   startegytext: {
     color: "#6e6e6e",
     fontSize: "18px",
-    fontFamily: "Roboto",
     fontWeight: 500,
-    lineHeight: 1.6,
-    letterSpacing: "1.2px",
+    fontFamily: "Roboto, Helvetica ,Arial, sans-serif",
   },
 
 

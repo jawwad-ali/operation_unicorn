@@ -86,3 +86,9 @@ a:hover:after {
     padding-left: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .navbarHeading {
+    font-size: 20px;
+  }
+}

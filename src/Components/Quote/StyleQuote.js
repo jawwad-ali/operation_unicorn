@@ -3,20 +3,19 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     quoteContainer: {
         '@media (max-width:768px)': {
-            width: "95%",
-            margin: "0 auto"
+            width: "100%",
         },
     },
     quote: {
         fontSize: "20px",
-        fontFamily: `Roboto, Helvetica, Arial, sans-serif`,
+        fontFamily: "Roboto, Helvetica, Arial, sans-serif",
         textAlign: "center",
         paddingBottom: "20px",
 
         '@media (max-width:768px)': {
-            fontSize: "18px",
+            fontSize: "19px",
             textAlign: "left",
-            paddingLeft: "20px"
+            padding: "8px"
         },
     },
     quoteIcon: {
@@ -37,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "Pacifico !important",
 
         '@media (max-width:768px)': {
-            width: "25%",
+            width: "50%",
             marginLeft: "auto",
             marginRight: 0,
         },

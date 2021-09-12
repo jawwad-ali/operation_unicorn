@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "30px",
         color: "black",
         fontWeight: "bold",
+        fontFamily: "Roboto, Helvetica ,Arial, sans-serif",
 
         '@media (max-width:768px)': {
             fontSize: "30px",
