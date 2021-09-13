@@ -7,7 +7,7 @@ function Footer() {
     const classes = useStyles()
 
     return (
-        <Container maxWidth="xl">
+        <Container maxWidth="xl" > 
             <Grid container spacing={3} >
                 <footer className={classes.footer}>
                     I provide my service on

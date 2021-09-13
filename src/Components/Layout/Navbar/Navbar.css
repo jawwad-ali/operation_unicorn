@@ -3,6 +3,7 @@
   padding: 5px;
   background-color: #fff;
 }
+
 .logo {
   height: 70px;
   width: 50px;
@@ -17,46 +18,29 @@
   padding-left: 0.5rem;
 }
 
-.navbarHeading:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 10;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 1%;
-  position: absolute;
-  background: black;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-
-.navbarHeading:hover:after {
-  width: 23%;
-  left: 80px;
-}
-
 ul {
   padding: 0;
-  list-style: none;
+  list-style: none !important;
   display: table;
   text-align: center;
 }
 
-li {
+.nav-item {
   display: table-cell;
   position: relative;
   padding: 15px 0;
+  list-style: none !important;
 }
 
 a {
   color: black;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
-  letter-spacing: 0.15em;
-
+  font-size: 21px;
   display: inline-block;
   position: relative;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-weight: none;
 }
 
 a:after {

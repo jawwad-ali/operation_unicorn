@@ -27,7 +27,6 @@ const useStyles = makeStyles((theme) => ({
     },
 
     oneLinerContainer: {
-        border: "1px solid red",
         width: "100%"
     },
     text: {
