@@ -43,6 +43,6 @@ li {
   }
   .readingSectionData {
     max-width: 90% !important;
-    margin: 0 auto !important;
+    margin: 25px auto !important;
   }
 }

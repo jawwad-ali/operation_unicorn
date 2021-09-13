@@ -57,10 +57,11 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     text: {
-        color: "#5e5e5e",
+        color: "#6e6e6e",
         fontSize: "20px",
         textAlign: "justify",
-        fontFamily: "Roboto",
+        fontFamily: "Roboto, Helvetica ,Arial, sans-serif",
+        fontWeight: 500,
 
         '@media (max-width:768px)': {
             fontSize: "17px",
