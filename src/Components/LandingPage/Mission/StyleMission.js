@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 
         '@media (max-width:768px)': {
             fontSize: "30px",
-            lineHeight: "35px",
+            marginLeft: "-11px !important",
             marginBottom: "20px",
             lineHeight: "40px"
         }
@@ -64,7 +64,8 @@ const useStyles = makeStyles((theme) => ({
 
         '@media (max-width:768px)': {
             fontSize: "17px",
-            fontWeight: "none"
+            fontWeight: "none",
+            marginLeft: "-11px !important"
         }
 
     }

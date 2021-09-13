@@ -4,8 +4,10 @@ const useStyles = makeStyles((theme) => ({
     quoteContainer: {
         '@media (max-width:768px)': {
             width: "100%",
+            margin: "0 auto !important",
         },
     },
+
     quote: {
         fontSize: "20px",
         fontFamily: "Roboto, Helvetica, Arial, sans-serif",
@@ -15,9 +17,9 @@ const useStyles = makeStyles((theme) => ({
         '@media (max-width:768px)': {
             fontSize: "19px",
             textAlign: "left",
-            padding: "8px"
         },
     },
+
     quoteIcon: {
         transform: `rotate(180deg)`,
         fontSize: "48px !important",
@@ -26,21 +28,17 @@ const useStyles = makeStyles((theme) => ({
             marginLeft: "-10px"
         },
     },
+
     quoteByDiv: {
         width: "100%",
         display: "flex",
-        justifyContent: "right",
-        alignItems: "right",
+        justifyContent: "flex-end",
+        alignItems: "flex-end",
         marginTop: "-15px !important",
         marginBottom: "20px !important",
         fontFamily: "Pacifico !important",
-
-        '@media (max-width:768px)': {
-            width: "50%",
-            marginLeft: "auto",
-            marginRight: 0,
-        },
     },
+
     quoteBy: {
         fontFamily: "Pacifico !important",
         fontSize: "23px",

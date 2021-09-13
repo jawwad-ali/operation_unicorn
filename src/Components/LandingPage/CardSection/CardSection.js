@@ -55,7 +55,7 @@ function CardSection() {
                                     </Card>
                                 </Grid>
                             )
-                        })
+                        }) 
                     }
                     <div className={classes.oneLinerContainer}>
                         <Typography component={"div"} className={classes.text}>

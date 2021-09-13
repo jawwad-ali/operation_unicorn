@@ -7,13 +7,13 @@ const useStyles = makeStyles((theme) => ({
         height: "100px",
         width: "100%",
         display: "flex",
-        justifyContent: "center", 
+        justifyContent: "center",
         alignItems: "center",
         textAlign: "center"
     },
     upwork: {
         paddingLeft: "5px",
-        paddingTop: "6px",
+        // paddingTop: "6px",
         letterSpacing: "0px",
         color: "green",
         fontWeight: 500,
