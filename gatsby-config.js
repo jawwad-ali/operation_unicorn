@@ -1,11 +1,13 @@
-// const dotenv = require("dotenv");
-// dotenv.config();
-
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
+  siteMetadata: {
+    title: `Operation Unicorn`,
+    description: `Operation Unicorn Clone `,
+    author: `Ali Jawwad`,
+  },
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-plugin-image`,
